@@ -3,7 +3,7 @@ import random  # Importing random module to generate random keys
 import string  # Importing string module for working with alphabets
 
 # Function to generate a random key (A-Z only)
-def generate_key(length):ggg
+def generate_key(length):
     return ''.join(random.choice(string.ascii_uppercase) for _ in range(length))  # Generates a key with random uppercase letters
 
 # Function to convert text to numbers (A=0, B=1, ..., Z=25)
