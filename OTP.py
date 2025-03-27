@@ -1,4 +1,4 @@
-import streamlit as st  # Importing Streamlit for creating the web app
+```import streamlit as st  # Importing Streamlit for creating the web app
 import random  # Importing random module to generate random keys
 import string  # Importing string module for working with alphabets
 
@@ -78,3 +78,4 @@ if st.button("🔓 Decrypt"):  # Button to trigger decryption
         st.success(f"**Decrypted Text:** `{decrypted_text}`")  # Display decrypted text
     else:
         st.error(decrypted_text)  # Display error message if any
+```
